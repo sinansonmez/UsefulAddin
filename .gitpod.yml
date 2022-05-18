@@ -4,8 +4,8 @@ ports:
     
 tasks: 
   - name: Web
-  init: |
+  init:
     npm i
     npm run
-  command: |
+  command:
     npm run start:desktop
