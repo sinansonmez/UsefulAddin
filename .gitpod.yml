@@ -1,0 +1,11 @@
+ports:
+  - port: 3000
+    onOpen: open-browser
+    
+tasks: 
+  - name: Web
+  init: |
+    npm i
+    npm run
+  command: |
+    npm run start:desktop
